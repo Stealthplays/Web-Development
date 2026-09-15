@@ -1,0 +1,13 @@
+.voorpagina {
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media print {
+    .voorpagina {
+        page-break-after: always;
+    }
+}
